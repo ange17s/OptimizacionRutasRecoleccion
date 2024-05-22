@@ -1,0 +1,16 @@
+1. pasar datos al mongodb check 
+2. coneccion a la base con pyhton check 
+3. generacion de alertas
+4. algoritmo de busqueda 
+5. visualizacion con mapa
+
+
+ange
+r0t4s
+
+
+mongodb+srv://ange:r0t4s@rutas.oowozkz.mongodb.net/?retryWrites=true&w=majority&appName=Rutas
+
+
+Rutas\Scripts\activate
+python .\Conexion\conexion.py
