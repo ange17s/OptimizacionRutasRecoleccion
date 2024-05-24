@@ -14,3 +14,5 @@ mongodb+srv://ange:r0t4s@rutas.oowozkz.mongodb.net/?retryWrites=true&w=majority&
 
 Rutas\Scripts\activate
 python .\Conexion\conexion.py
+uvicorn main:app --reload
+

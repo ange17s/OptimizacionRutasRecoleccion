@@ -9,7 +9,7 @@ try:
     documents = collection.find()
 
     alertas = []
-    limLlenado = 40
+    limLlenado = 95
 
     for record in collection.find():
         capacidad = record['properties'].get('CAPACIDAD')
@@ -33,7 +33,7 @@ finally:
     client.close()
     print('Conexión finalizada.')
 
-def obtener_alertas():
+def obtenerAlertas():
     return alertas
 
 if __name__ == "__main__":
